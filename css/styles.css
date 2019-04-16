@@ -1,0 +1,55 @@
+h1, h2 {
+  font-family: monospace;
+  color: black;
+  text-shadow: 0 3px 0 #b2a98f,0 14px 10px rgba(0,0,0,0.15), 0 24px 2px rgba(0,0,0,0.1), 0 34px 30px rgba(0,0,0,0.1);
+}
+h1 {
+  font-size: 60px;
+}
+h2 {
+  font-size: 30px;
+}
+body {
+  background: #e67c2f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttons {
+  font-size: 35px;
+  font-family: monospace;
+  width: 200px;
+  height: 50px;
+}
+
+#rock {
+  background-color: brown;
+}
+
+#paper {
+  background-color: white;
+}
+
+#scissors {
+  background-color: #868686;
+}
+
+p {
+  color: #f8f8ff;
+  text-shadow: 0 3px 0 #b2a98f,0 14px 10px rgba(0,0,0,0.15), 0 10px 2px rgba(0,0,0,0.1), 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+  padding: 20px;
+  font-family: monospace;
+  font-size: 30px;
+}
+
+.result {
+  background-color: rgb(235, 137, 22);
+  width: 700px;
+  height: 345px;
+  margin-top: 20px;
+  border:20px ridge #ce2e2e;
+  border-radius: 20px;
+
+}
